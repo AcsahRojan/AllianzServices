@@ -102,7 +102,7 @@
               <OutArgument x:TypeArguments="x:Int32">[Num1]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:Int32">20</InArgument>
+              <InArgument x:TypeArguments="x:Int32">200</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
@@ -110,7 +110,7 @@
               <OutArgument x:TypeArguments="x:Int32">[Num2]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:Int32">30</InArgument>
+              <InArgument x:TypeArguments="x:Int32">300</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
@@ -124,7 +124,7 @@
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="477.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Fatal" Message="[Num3]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="477.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[Num3]" />
     <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="477.6,122.4" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Result: &quot;+ Num3.ToString]" />
     <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="E:\Uipath Allianz\Data\output\Calculator" sap:VirtualizedContainerService.HintSize="477.6,157.6" sap2010:WorkflowViewState.IdRef="AppendLine_1" Text="[&quot;Result: &quot; + Num3.ToString]" UseDefaultEncoding="False" />
   </Sequence>
